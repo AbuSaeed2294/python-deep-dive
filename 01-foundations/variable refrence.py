@@ -20,5 +20,7 @@ print("the value {0} is hold by my_var variable".format(my_var)) # by injecting 
 print("the value {} is hold by my_var variable".format(my_var)) # we can also remove the index of format function argument, format will handle by default
 print("the value {0} is hold by my_var, a hold {1} and b hold {2}".format(my_var, a, b)) # will need to mention index, if multiple arguemnt are passed, 
 print("the value {} is hold by my_var, a hold {} and b hold {}".format(my_var, a, b)) # if index is not mentioned, then compiler will use the format function argument sequence, 
+
+
 print(f"the variable my_var value is : {my_var}") # new and recommended way for inejecting variable in string
 print(f"the value {my_var} is hold by my_var variable") # new and recommended way for inejecting variable in string
